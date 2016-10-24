@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'mfactory:admin',
-  version: '0.0.2',
+  name: 'supaseca:admin',
+  version: '0.0.3',
   summary: 'A complete admin dashboard solution',
-  git: 'https://github.com/meteor-factory/meteor-admin.git',
+  git: 'https://github.com/projik/meteor-admin.git',
   documentation: 'README.md'
 });
 
@@ -15,7 +15,7 @@ Package.onUse(function(api) {
     'tracker',
     'reactive-var',
     'reactive-dict',
-    'mfactory:admin-lte@0.0.1',
+    'supaseca:admin-lte@2.3.0',
     'aldeed:autoform@5.3.0',
     'aldeed:tabular@1.2.0',
     'tmeasday:publish-counts@0.4.0'
